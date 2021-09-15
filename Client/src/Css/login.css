@@ -1,0 +1,134 @@
+.form-container{
+    width: 400px;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.title img{
+    width: 100px;
+}
+
+/***********input style**************/
+
+
+.form-group{
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    border-bottom: 2px solid cadetblue;
+}
+
+
+.form-group span{
+    padding-right: 5px;
+}
+
+.form-group svg{
+    position: relative;
+    left: 3px;
+    bottom: 3px;
+    color: cadetblue;
+}
+
+input{
+    border:none;
+    border-radius: 0px 20px 0 0;
+    padding: 7px;
+    width: 300px;
+}
+
+input::placeholder{
+    text-transform: uppercase;
+    font-weight: 500px;
+    letter-spacing: 1px;
+}
+
+
+input:focus{
+    outline: 0;
+}
+
+.input-control{
+    position: relative;
+}
+
+.input-control h5{
+    text-transform: uppercase;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #999;
+    transform: .3s;
+}
+
+.form-group:focus .input-control h5{
+    top: -5px;
+}
+
+/*************************/
+
+
+
+/***********submit button style**************/
+.submit-btn button{
+    border: none;
+    border-radius: 20px;
+    background-color: cadetblue;
+    padding: 8px 25px;
+    transition: .2s ease-in;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.submit-btn button:hover{
+    opacity: .8;
+    letter-spacing: 2px;
+}
+/********************************/
+
+
+.form-container .sign-in a,.sign-up a{
+    text-decoration: none;
+}
+
+.form-container .forget-password{
+    margin-right: 30px;
+    align-self: flex-end;
+}
+
+.form-container .forget-password a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #999;
+}
+
+.form-container .forget-password a:hover{
+    color: #0e76a8;
+}
+
+/***********social-login stylings**********/
+
+.social-login{
+    margin-top: 20px;
+}
+
+.social-login svg{
+    font-size: 30px;
+    color: cadetblue;
+}
+
+
+/***********social-login stylings**********/
+
+
+@media screen and (min-width: 776px){
+
+}
