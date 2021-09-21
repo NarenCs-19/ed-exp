@@ -139,6 +139,9 @@ app.post("/register",userExists,(req,res)=>{
     }
 });
 
+app.get("/",(req, res)=>{   
+    res.send("Hello");
+})
 
 //HANDLES THE USER'S LOGIN
 app.post("/login",(req,res,next)=>{passport.authenticate('local',(err,user,info)=>{

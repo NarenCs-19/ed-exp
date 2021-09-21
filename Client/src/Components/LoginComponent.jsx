@@ -43,8 +43,9 @@ function LoginComponent() {
   }
   const handleSubmit = async (event) => {
     event.preventDefault(); 
+    console.log(userData);
     axios
-      .post("/login", userData)
+      .post("http://localhost:5000/login", userData)
       .then(({data}) => {
         if(data === "success"){
           history.push('/');
